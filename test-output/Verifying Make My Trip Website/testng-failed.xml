@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verifying Make My Trip Website]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verifying Home Page(failed)">
+    <classes>
+      <class name="com.learn.Test.VeiryMakeMyTrip">
+        <parameter name="mobileNumber" value="9490323041"/>
+        <parameter name="inputDate" value="December 2024"/>
+        <methods>
+          <include name="afterClassTest"/>
+          <include name="closeDriver"/>
+          <include name="verifyLoginBtnInMMT" invocation-numbers="0 1 2"/>
+          <include name="initilize"/>
+          <include name="beforeClassTest"/>
+        </methods>
+      </class> <!-- com.learn.Test.VeiryMakeMyTrip -->
+    </classes>
+  </test> <!-- Verifying Home Page(failed) -->
+</suite> <!-- Failed suite [Verifying Make My Trip Website] -->

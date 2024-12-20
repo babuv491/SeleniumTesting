@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Verifying Make My Trip Website">
+	<test name="Verifying Home Page" parallel="false">
+
+		<classes>
+
+			<class name="com.learn.Test.VeiryMakeMyTrip">
+				<parameter name="inputDate" value="December 2024" />
+				<parameter name="mobileNumber" value="9490323041" />
+
+
+				<methods>
+					<include name="verifyLoginBtnInMMT">
+
+					</include>
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+</suite>
